@@ -1,0 +1,320 @@
+.loremIpsumDolorSitAmet {
+  position: absolute;
+  top: 0;
+  left: 675px;
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  z-index: 2;
+}
+.bookingOptionsButtonsChild,
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameChild {
+  box-shadow: 20px 20px 4px rgba(255, 138, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--color-orange-400);
+}
+.bookingOptionsButtonsChild {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-snow-200);
+  border: 1px solid var(--color-lightgray);
+}
+.input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--body-strong);
+  font-size: var(--body-strong-size);
+  background-color: transparent;
+  position: absolute;
+  top: 23px;
+  left: 629px;
+  line-height: 140%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  z-index: 2;
+}
+.podcastsChannelIcon {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  width: 61px;
+  height: 41px;
+  overflow: hidden;
+  z-index: 2;
+}
+.bookingOptionsButtons,
+.bookingOptionsButtonsItem {
+  position: absolute;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-snow-200);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 100%;
+}
+.bookingOptionsButtons {
+  top: 582px;
+  height: 78px;
+  z-index: 1;
+}
+.bookingOptionsButtonsItem {
+  top: 0;
+  height: 100%;
+  display: none;
+}
+.imageIcon,
+.input1 {
+  position: absolute;
+  top: 25px;
+  z-index: 2;
+}
+.input1 {
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--body-strong);
+  font-size: var(--body-strong-size);
+  background-color: transparent;
+  left: 610px;
+  line-height: 140%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.imageIcon {
+  left: 33px;
+  width: 41px;
+  height: 38px;
+  overflow: hidden;
+}
+.bookingOptionsButtons1,
+.bookingOptionsButtonsInner {
+  position: absolute;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-snow-200);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 100%;
+}
+.bookingOptionsButtons1 {
+  top: 666px;
+  height: 78px;
+  z-index: 1;
+}
+.bookingOptionsButtonsInner {
+  top: 0;
+  height: 100%;
+  display: none;
+}
+.input2 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--body-strong);
+  font-size: var(--body-strong-size);
+  background-color: transparent;
+  position: absolute;
+  top: 17px;
+  left: 603px;
+  line-height: 140%;
+  color: var(--color-gray-700);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  z-index: 2;
+}
+.hotPriceShoppingSalesDiscoIcon {
+  position: absolute;
+  top: 2px;
+  left: 18px;
+  width: 67px;
+  height: 64px;
+  object-fit: contain;
+  z-index: 2;
+}
+.bookingOptionsButtons2,
+.rectangleDiv {
+  position: absolute;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-snow-200);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 100%;
+}
+.bookingOptionsButtons2 {
+  top: 490px;
+  left: 2px;
+  height: 78px;
+  z-index: 1;
+}
+.rectangleDiv {
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: none;
+}
+.frameIcon,
+.input3 {
+  position: absolute;
+  z-index: 2;
+}
+.input3 {
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--body-strong);
+  font-size: var(--body-strong-size);
+  background-color: transparent;
+  top: 25px;
+  left: 621px;
+  line-height: 140%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.frameIcon {
+  top: 14px;
+  left: 33px;
+  width: 36px;
+  height: 42px;
+  overflow: hidden;
+}
+.bookingOptionsButtons3,
+.bookingOptionsButtonsChild1 {
+  position: absolute;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-snow-200);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 100%;
+}
+.bookingOptionsButtons3 {
+  top: 406px;
+  left: 2px;
+  height: 78px;
+  z-index: 1;
+}
+.bookingOptionsButtonsChild1 {
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: none;
+}
+.input4 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--body-strong);
+  font-size: var(--body-strong-size);
+  background-color: transparent;
+  position: absolute;
+  top: 16px;
+  left: 609px;
+  line-height: 140%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  z-index: 3;
+}
+.bookingOptionsButtons4 {
+  position: absolute;
+  top: 744px;
+  left: 1px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-snow-200);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 748px;
+  height: 78px;
+  z-index: 2;
+}
+.rectangleParent {
+  margin: 0;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  box-shadow: 20px 20px 4px rgba(255, 138, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--color-orange-400);
+  box-sizing: border-box;
+  width: 100%;
+  height: 850px;
+}
+.loremIpsumDolorSitAmetParent {
+  height: 880px;
+  flex: 1;
+  position: relative;
+  min-width: 487px;
+  max-width: 100%;
+}
+.desktop1,
+.frameParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 1440px;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 var(--padding-4xl) 0 0;
+  gap: var(--gap-64xl);
+  max-width: 100%;
+}
+.desktop1 {
+  position: relative;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow-x: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-57xl);
+  gap: var(--gap-7xs);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .loremIpsumDolorSitAmetParent {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-22xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: var(--gap-2xl);
+  }
+}

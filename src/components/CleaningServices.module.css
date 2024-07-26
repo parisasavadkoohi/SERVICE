@@ -1,0 +1,122 @@
+.download1311zon3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cleaningTitle {
+  margin-left: -268px;
+  height: 182px;
+  width: 259px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-mini);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cleaningTitle1 {
+  height: 182px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs) var(--padding-12xs) 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.download142,
+.download93 {
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+}
+.download142 {
+  height: 177px;
+  width: 284px;
+  flex-shrink: 0;
+}
+.download93 {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.secondCleaningImage {
+  height: 176px;
+  width: 293px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.download152 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.thirdCleaningImage {
+  height: 179px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.cleaningServices {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl) 0 var(--padding-219xl);
+  gap: var(--gap-4xs);
+}
+@media screen and (max-width: 1350px) {
+  .cleaningServices {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: var(--padding-100xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .cleaningServices {
+    padding-left: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cleaningServices {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,57 @@
+.frameChild {
+  height: 253px;
+  width: 247px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+}
+.div,
+.frameChild,
+.frameItem {
+  position: relative;
+}
+.frameItem {
+  height: 46px;
+  width: 113px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-orange-100);
+  display: none;
+}
+.div {
+  flex: 1;
+  font-size: var(--body-strong-size);
+  line-height: 140%;
+  font-weight: 600;
+  font-family: var(--body-strong);
+  color: var(--color-snow-100);
+  text-align: center;
+  z-index: 2;
+}
+.rectangleGroup,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-8xl) var(--padding-smi);
+  background-color: var(--color-orange-100);
+  width: 113px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.rectangleGroup:hover {
+  background-color: var(--color-chocolate);
+}
+.rectangleParent {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  padding: var(--padding-158xl) var(--padding-36xl) var(--padding-11xl);
+}

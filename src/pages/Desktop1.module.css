@@ -1,0 +1,44 @@
+.frameGroup,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  gap: 5px;
+}
+.frameParent {
+  padding: 0 var(--padding-7xs) var(--padding-base) 0;
+  box-sizing: border-box;
+  gap: var(--gap-6xl);
+}
+.desktop8Child {
+  width: 136px;
+  height: 110px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1682px;
+  left: -44px;
+  border-radius: 50%;
+  background-color: rgba(255, 153, 0, 0.48);
+  z-index: 1;
+}
+.desktop8 {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 591px;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  line-height: normal;
+  letter-spacing: normal;
+}

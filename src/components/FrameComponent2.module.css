@@ -1,0 +1,97 @@
+.frameChild,
+.loginButtonBackgroundChild {
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  display: none;
+}
+.frameChild {
+  height: 103px;
+  width: 1440px;
+  background-color: var(--color-gray-500);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.loginButtonBackgroundChild {
+  height: 64px;
+  width: 220px;
+  background-color: var(--color-orange-100);
+}
+.div {
+  height: 57px;
+  width: 128px;
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.a,
+.loginButtonBackground {
+  white-space: nowrap;
+  z-index: 1;
+}
+.loginButtonBackground {
+  width: 220px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-orange-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-24xl) 0;
+  box-sizing: border-box;
+}
+.a {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 100;
+  color: inherit;
+}
+.rectangleParent,
+.wrapper {
+  width: 123px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+.rectangleParent {
+  width: 1440px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-500);
+  border: 1px solid var(--color-gainsboro-200);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-lgi) var(--padding-51xl) var(--padding-base)
+    var(--padding-24xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--body-strong-size);
+  color: var(--color-white);
+  font-family: var(--body-strong);
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}

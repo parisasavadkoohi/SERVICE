@@ -1,0 +1,117 @@
+.frameChild {
+  height: 68px;
+  width: 1440px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.hotlineShoppingCallCenterHIcon {
+  align-self: stretch;
+  width: 55px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  min-height: 42px;
+  z-index: 1;
+}
+.a {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  z-index: 1;
+}
+.hotlineShoppingCallCenterHParent,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper {
+  flex-direction: column;
+  padding: var(--padding-smi) 0 0;
+}
+.hotlineShoppingCallCenterHParent {
+  flex-direction: row;
+  gap: var(--gap-4xl);
+}
+.div {
+  flex: 1;
+  position: relative;
+  line-height: 2px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.sloganBackgroundIcon {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  margin: 0 !important;
+  top: -22px;
+  right: 31px;
+  object-fit: cover;
+  z-index: 2;
+}
+.sloganContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.rectangleParent,
+.sloganContentWrapper {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.sloganContentWrapper {
+  width: 518px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+  font-size: var(--font-size-13xl);
+}
+.rectangleParent {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-mini) var(--padding-mid) var(--padding-6xs)
+    var(--padding-14xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--body-strong);
+}
+@media screen and (max-width: 1125px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .div {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .a,
+  .div {
+    font-size: var(--font-size-lgi);
+  }
+  .div {
+    line-height: 1px;
+  }
+}

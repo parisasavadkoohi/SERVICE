@@ -1,0 +1,44 @@
+.housec2f84a3511zon2Icon {
+  width: 65px;
+  height: 63px;
+  position: relative;
+  object-fit: contain;
+}
+.div {
+  position: relative;
+  display: inline-block;
+  min-width: 40px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 var(--padding-smi);
+}
+.homeCategory,
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.homeContent {
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-3xs);
+}
+.homeCategory {
+  width: 149px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--body-strong);
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--font-size-lgi);
+  }
+}

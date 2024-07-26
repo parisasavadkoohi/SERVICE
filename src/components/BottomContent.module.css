@@ -1,0 +1,624 @@
+.div {
+  width: 139px;
+  position: relative;
+  display: inline-block;
+}
+.isfahanServicesTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-41xl);
+}
+.beautyPromoContentChild {
+  width: 324px;
+  height: 382px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gray-300);
+  display: none;
+  max-width: 100%;
+}
+.oip1Icon {
+  height: 180px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.beautyPromoImage {
+  width: 305px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.beautyPromoTitleChild {
+  height: 48px;
+  width: 316px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  background-color: var(--color-gray-400);
+  display: none;
+}
+.div1 {
+  width: 202px;
+  position: relative;
+  font-weight: 100;
+  display: inline-block;
+  z-index: 2;
+}
+.beautyPromoTitle {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  background-color: var(--color-gray-400);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-5xs) var(--padding-25xl) var(--padding-base);
+  white-space: nowrap;
+  z-index: 1;
+}
+.beautyPromoPriceBoxChild {
+  height: 54px;
+  width: 306px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro-400);
+  display: none;
+}
+.beautyPromoPrice {
+  position: relative;
+  line-height: 2px;
+  display: inline-block;
+  min-width: 92px;
+  z-index: 2;
+}
+.beautyPromoPriceContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+}
+.div2 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 100;
+  display: inline-block;
+  min-width: 77px;
+  z-index: 2;
+}
+.beautyPromoPriceBox,
+.beautyPromoPricing {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.beautyPromoPriceBox {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro-400);
+  padding: var(--padding-xs) var(--padding-6xs) var(--padding-lg)
+    var(--padding-21xl);
+  gap: var(--gap-23xl);
+  z-index: 1;
+}
+.beautyPromoPricing {
+  align-self: stretch;
+  padding: 0 var(--padding-8xs);
+  font-size: var(--font-size-5xl);
+}
+.beautyPromoContent,
+.beautyPromoDescription,
+.beautyServicePromo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.beautyPromoDescription {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.beautyPromoContent,
+.beautyServicePromo {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.beautyPromoContent {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gray-300);
+  padding: var(--padding-2xl) var(--padding-9xs) var(--padding-3xl);
+  gap: var(--gap-18xl);
+}
+.beautyServicePromo {
+  width: 341px;
+  padding: 0 var(--padding-mid) 0 0;
+  min-width: 222px;
+}
+.homeBeautyPromoChild {
+  width: 318px;
+  height: 382px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: none;
+}
+.images134 {
+  width: 277px;
+  height: 188px;
+  position: relative;
+  border-radius: var(--br-xl);
+  object-fit: cover;
+  z-index: 1;
+}
+.homeBeautyPlaceholder {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  background-color: var(--color-gray-400);
+  width: 316px;
+  height: 48px;
+  z-index: 1;
+}
+.div3 {
+  position: absolute;
+  top: 0;
+  left: 78px;
+  font-weight: 100;
+  z-index: 2;
+}
+.homeBeautyName {
+  height: 52px;
+  flex: 1;
+  position: relative;
+}
+.homeBeautyTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.homeBeautyPriceBox {
+  height: 100%;
+  width: 306px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro-400);
+  z-index: 1;
+}
+.homeBeautyPrice {
+  position: relative;
+  line-height: 2px;
+  display: inline-block;
+  min-width: 92px;
+  z-index: 2;
+}
+.homeBeautyPriceContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+}
+.div4 {
+  width: 125px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 100;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.homeBeautyPricing {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-3xs) 0 var(--padding-xl) var(--padding-20xl);
+  position: relative;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-5xl);
+}
+.homeBeautyContent {
+  margin-right: -19px;
+  width: 317px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.cleaningPromoContentChild,
+.homeBeautyPromo {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+}
+.homeBeautyPromo {
+  width: 318px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-lg) var(--padding-mid)
+    var(--padding-11xs);
+  box-sizing: border-box;
+  gap: var(--gap-14xl);
+}
+.cleaningPromoContentChild {
+  width: 324px;
+  height: 382px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.download181 {
+  width: 262px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.homeRepairItemChild {
+  height: 48px;
+  width: 316px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  background-color: var(--color-gray-400);
+  display: none;
+}
+.div5 {
+  width: 198px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.homeRepairContent,
+.homeRepairItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.homeRepairItem {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  background-color: var(--color-gray-400);
+  padding: var(--padding-2xs) var(--padding-17xl) var(--padding-xl);
+  white-space: nowrap;
+  z-index: 1;
+}
+.homeRepairContent {
+  align-self: stretch;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.homeRepairPriceBox {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro-400);
+  z-index: 1;
+}
+.div6,
+.homeRepairPrice {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.homeRepairPrice {
+  min-width: 88px;
+}
+.div6 {
+  width: 125px;
+  font-weight: 100;
+  flex-shrink: 0;
+}
+.homeRepairPricing {
+  width: 311px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-base) 0 var(--padding-sm) var(--padding-18xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+}
+.homeRepairPromo {
+  margin-right: -27px;
+  width: 321px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 110%;
+  flex-shrink: 0;
+}
+.cleaningPromoContent,
+.cleaningPromoContentItem {
+  width: 324px;
+  height: 382px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+}
+.cleaningPromoContent {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-7xl) var(--padding-lg)
+    var(--padding-9xs);
+  box-sizing: border-box;
+  gap: var(--gap-6xl);
+  font-size: var(--font-size-mini);
+}
+.cleaningPromoContentItem {
+  position: relative;
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.download92 {
+  height: 183px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.download92Wrapper {
+  width: 295px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.frameChild {
+  height: 48px;
+  width: 316px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  background-color: var(--color-gray-400);
+  display: none;
+}
+.div7 {
+  flex: 1;
+  position: relative;
+  line-height: 2px;
+  z-index: 2;
+}
+.frameItem,
+.rectangleParent {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  background-color: var(--color-gray-400);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-mini) var(--padding-25xl)
+    var(--padding-20xl);
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameItem {
+  height: 54px;
+  width: 306px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro-400);
+  display: none;
+}
+.homeRepairPrice1 {
+  position: relative;
+  line-height: 2px;
+  display: inline-block;
+  min-width: 95px;
+  z-index: 2;
+}
+.homeRepairPriceBackground {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+}
+.div8 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 100;
+  display: inline-block;
+  min-width: 77px;
+  z-index: 2;
+}
+.rectangleGroup {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro-400);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-6xs) var(--padding-lgi)
+    var(--padding-27xl);
+  gap: var(--gap-14xl);
+  z-index: 1;
+}
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+}
+.frameWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs) 0 var(--padding-7xs);
+  color: var(--color-black);
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.cleaningPromoContent1,
+.cleaningServicePromo {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.cleaningPromoContent1 {
+  width: 324px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gray-100);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 var(--padding-mini) var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-19xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-800);
+}
+.cleaningServicePromo {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-9xl);
+  font-size: var(--font-size-xl);
+}
+.bottomContent,
+.isfahanServicesTitleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.isfahanServicesTitleParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xl);
+}
+.bottomContent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xl) var(--padding-30xl) var(--padding-14xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--body-strong);
+}
+@media screen and (max-width: 800px) {
+  .bottomContent {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .beautyPromoTitle,
+  .isfahanServicesTitle {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .beautyPromoPrice {
+    font-size: var(--font-size-lgi);
+  }
+  .div2 {
+    font-size: var(--body-strong-size);
+  }
+  .beautyPromoPriceBox {
+    flex-wrap: wrap;
+    gap: var(--gap-2xl);
+  }
+  .beautyPromoContent {
+    gap: var(--gap-lg);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .div3 {
+    font-size: var(--body-strong-size);
+  }
+  .homeBeautyPrice {
+    font-size: var(--font-size-lgi);
+  }
+  .div4 {
+    font-size: var(--body-strong-size);
+  }
+  .homeBeautyPricing {
+    flex-wrap: wrap;
+  }
+  .homeBeautyPromo {
+    gap: var(--gap-base);
+  }
+  .div6,
+  .homeRepairPrice {
+    font-size: var(--body-strong-size);
+  }
+  .homeRepairPrice1 {
+    font-size: var(--font-size-lgi);
+  }
+  .div8 {
+    font-size: var(--body-strong-size);
+  }
+  .rectangleGroup {
+    flex-wrap: wrap;
+    gap: var(--gap-base);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .cleaningPromoContent1 {
+    gap: var(--gap-lgi);
+  }
+}

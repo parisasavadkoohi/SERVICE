@@ -1,0 +1,207 @@
+.frameChild,
+.h3 {
+  position: absolute;
+}
+.frameChild {
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-lavenderblush);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.h3 {
+  margin: 0;
+  top: 30px;
+  left: 509px;
+  font-size: var(--font-size-5xl);
+  font-weight: 100;
+  font-family: inherit;
+  z-index: 2;
+}
+.stylistOptionsChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.b {
+  position: absolute;
+  top: 13px;
+  left: 93px;
+  display: inline-block;
+  min-width: 61px;
+  z-index: 3;
+}
+.selectionButtonsChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-orange-100);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.b1 {
+  position: absolute;
+  top: 6px;
+  left: 32px;
+  font-size: var(--font-size-xs);
+  font-family: var(--body-strong);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 4;
+}
+.selectionButtons {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-orange-100);
+  position: absolute;
+  top: 47px;
+  left: 49px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-8xs);
+  width: 100px;
+  height: 28px;
+  z-index: 3;
+}
+.rectangleGroup:hover,
+.selectionButtons:hover {
+  background-color: var(--color-chocolate);
+}
+.stylistOptions,
+.stylistOptionsItem {
+  position: absolute;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.stylistOptions {
+  top: 97px;
+  left: 53px;
+  width: 225px;
+  height: 80px;
+  z-index: 2;
+}
+.stylistOptionsItem {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.span {
+  font-size: var(--font-size-5xl);
+  font-weight: 100;
+}
+.div {
+  top: 10px;
+  left: 63px;
+  z-index: 3;
+}
+.b2,
+.div,
+.frameItem {
+  position: absolute;
+}
+.frameItem {
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-orange-100);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.b2 {
+  top: 6px;
+  left: 34px;
+  font-size: var(--font-size-xs);
+  font-family: var(--body-strong);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 4;
+}
+.rectangleGroup,
+.stylistOptions1 {
+  position: absolute;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-orange-100);
+  top: 47px;
+  left: 48px;
+  border-radius: var(--br-8xs);
+  width: 100px;
+  height: 28px;
+  z-index: 3;
+}
+.stylistOptions1 {
+  top: 97px;
+  left: 427px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+  width: 225px;
+  height: 80px;
+  z-index: 2;
+}
+.images121,
+.images133 {
+  position: absolute;
+  top: 79px;
+  left: 591px;
+  border-radius: var(--br-481xl);
+  width: 77px;
+  height: 65px;
+  object-fit: contain;
+  z-index: 3;
+}
+.images121 {
+  left: 234px;
+  border-radius: var(--br-981xl);
+  width: 82px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-lavenderblush);
+  box-sizing: border-box;
+  width: 100%;
+  height: 214px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--body-strong);
+}
+@media screen and (max-width: 450px) {
+  .h3 {
+    font-size: var(--font-size-lgi);
+  }
+}
